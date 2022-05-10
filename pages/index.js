@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <>
-      <h1 className="text-3xl text-green-500">Home</h1>
+      <Header />
+      <Navbar />
     </>
   );
 };

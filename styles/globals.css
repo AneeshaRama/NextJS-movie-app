@@ -1,9 +1,15 @@
 @tailwind base;
-@tailwind utilities;
 @tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    @apply bg-[#06202A] text-gray-300;
+  }
 }
