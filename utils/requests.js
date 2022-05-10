@@ -25,6 +25,18 @@ export const requests = {
     title: "Mystery",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
   },
+  fetchCrime: {
+    title: "Crime",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=80`,
+  },
+  fetchFantasyMovies: {
+    title: "Fantasy",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=14`,
+  },
+  fetchThrillerMovies: {
+    title: "Thriller",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=53`,
+  },
   fetchSciFi: {
     title: "Sci-Fi",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
@@ -41,7 +53,11 @@ export const requests = {
     title: "Animation",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
   },
-  fetchTV: {
+  fetchAdventureMovies: {
+    title: "Adventure",
+    url: `/discover/movie?api_key=${API_KEY}&with_geners=12`,
+  },
+  fetchTVmovies: {
     title: "TV Movies",
     url: `/discover/movie?api_key=${API_KEY}&with_geners=10770`,
   },
