@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar";
 import Results from "../components/Results";
 import { requests } from "../utils/requests";
 
 const Home = ({ results }) => {
+  // useEffect(() => {
+  //   const getHomePage = async () => {
+  //     const request = await fetch(
+  //       `https://api.themoviedb.org/3${
+  //         requests[genre]?.url || requests.fetchTrending.url
+  //       }`
+  //     ).then((res) => res.json());
+  //   };
+  //   getHomePage();
+  // }, []);
   return (
     <>
       <Header />
@@ -19,7 +29,7 @@ export async function getServerSideProps(context) {
 
   const request = await fetch(
     `https://api.themoviedb.org/3${
-      requests[genre].url || requests.fetchTrending.url
+      requests[genre]?.url || requests.fetchTrending.url
     }`
   ).then((res) => res.json());
 
