@@ -42,7 +42,7 @@ export const requests = {
     url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
   },
   fetchTV: {
-    title: "TV Shows",
+    title: "TV Movies",
     url: `/discover/movie?api_key=${API_KEY}&with_geners=10770`,
   },
 };
