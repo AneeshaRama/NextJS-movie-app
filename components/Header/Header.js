@@ -27,8 +27,8 @@ const Header = () => {
           src={
             "https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
           }
-          width={150}
-          height={80}
+          width={200}
+          height={100}
         />
       </header>
     </>
