@@ -1,4 +1,4 @@
-## **Movie app using NextJS and TailwindCSS**
+# **Movie app using NextJS and TailwindCSS**
 
 This fronted project of Hulu(subscription based media streaming service) clone is built using modern tools like NextJS and TailwindCSS. Check the live project here👇️ 
 
